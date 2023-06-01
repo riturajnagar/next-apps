@@ -10,7 +10,7 @@ const Post = ({ post }) => {
                 <p className='text-center word-wrap'>{post.metadata.description}</p>
             </div>
 
-            <ReactMarkdown>{post.markdown}</ReactMarkdown>
+            <ReactMarkdown>{post.description}</ReactMarkdown>
         </section>
     );
 };
